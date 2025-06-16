@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Hello Pycon Colombia!", page_icon="🐍")
 
 st.title("🐍 Hello Pycon Colombia 2025!")
-st.subheader("This is a simple app made with Streamlit")
 
 # Create columns
 col1, col2 = st.columns([1, 2])
@@ -28,7 +27,7 @@ categories = ["Yes", "No"]
 values = [yes_value, no_value]
 colors = [color_yes, color_no]
 
-fig, ax = plt.subplots(figsize=(8, 5))
+fig, ax = plt.subplots(figsize=(3, 2))
 ax.bar(categories, values, color=colors)
 ax.set_title("😊 Do you like the presentation so far? 😊", fontsize=12)
 st.pyplot(fig)
