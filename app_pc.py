@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Hello Pycon Colombia!", page_icon="🐍")
 
-st.title("🐍 Hello Pycon Colombia 2025!")
+st.title("🐍 Hello Ñuble Alimentos 2025!")
 
 # Create columns
 col1, col2 = st.columns([1, 2])
@@ -36,4 +36,4 @@ with col2:
 
 
 st.markdown("---")
-st.caption("Made with ❤️ for the Python Colombia community.")
+st.caption("Made with ❤️ for Ñuble Alimentos.")
