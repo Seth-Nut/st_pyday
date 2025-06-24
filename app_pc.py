@@ -1,7 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Hello Pycon Colombia!", page_icon="🐍")
+st.set_page_config(page_title="Hello Ñuble Alimentos!", page_icon="🐍")
 
 st.title("🐍 Hello Ñuble Alimentos 2025!")
 
