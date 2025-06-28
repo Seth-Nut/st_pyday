@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Hello Pycon Colombia 2025!", page_icon="🐍")
 
-st.title("🐍 Hello Pycon Colombia 2025 2025!")
+st.title("🐍 Hello Pycon Colombia 2025!")
 
 # Create columns
 col1, col2 = st.columns([1, 2])
